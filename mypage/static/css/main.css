@@ -36,7 +36,7 @@ background-color:rgba(255, 255 , 255, 0.8);
 .dropdown-content-2,
 .dropdown-content-3,
 .dropdown-content-4 {
-    transform: translateY(100em);
+    transform: translateY(100em) rotateY(340deg);
     opacity: 0;
     position: absolute;
     background-color:rgb(93 ,149 ,0);
@@ -75,6 +75,6 @@ background-color:rgba(255, 255 , 255, 0.8);
     display: block;
     width: 98%;
     opacity: 1;
-    transform: translateY(0em);
+    transform: translateY(0em) rotateY(0deg);
     transition: all 0.3s;
   }
