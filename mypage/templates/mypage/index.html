@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}"/>
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url('{% static "images/foodback.jpg" %}');
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="dropdown dropdown1">
+            <div class="menu menu1">Menu1</div>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="dropdown dropdown2">
+            <div class="menu menu2">Menu2</div>
+            <div class="dropdown-content-2">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 4</a>
+                <a href="#">Link 5</a>
+            </div>
+        </div>
+        <div class="dropdown dropdown3">
+            <div class="menu menu3">Menu3</div>
+            <div class="dropdown-content-3">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 4</a>
+            </div>
+        </div>
+        <div class="dropdown dropdown4">
+            <div class="menu menu4">Menu4</div>
+            <div class="dropdown-content-4">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 4</a>
+                <a href="#">Link 5</a>
+                <a href="#">Link 6</a>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
